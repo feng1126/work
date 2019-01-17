@@ -1,0 +1,7 @@
+
+
+git add .
+git commit -m "修复XXbug" 
+git push -u origin master
+
+git push

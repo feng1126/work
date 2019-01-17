@@ -1,0 +1,12 @@
+cmake -DCMAKE_INSTALL_PREFIX=/tmp/t2/usr ..
+
+
+
+set(CMAKE_INSTALL_PREFIX  "${CMAKE_SOURCE_DIR}/install")
+status("  Install to:" "${CMAKE_INSTALL_PREFIX}")
+
+
+cmake -DCPP11_NO_BOOST=1 ..
+
+ cmake -DCMAKE_INSTALL_PREFIX=~/3rdparty/opencv -DBUILD_SHARED_LIBS=OFF   ..
+
